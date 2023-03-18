@@ -1,0 +1,22 @@
+.category a {
+  color: #000;
+  text-decoration: none;
+  font-size: 0.9rem;
+  width: 85% !important;
+  margin: auto;
+  display: block !important;
+  transition: all 0.2s ease-in-out;
+}
+.category a:hover {
+  color: #000;
+  transform: scale(1.1) !important;
+}
+
+@media (max-width: 575px) {
+  .category .slick-prev {
+    transform: translate(100%, 50%);
+  }
+  .category .slick-next {
+    transform: translate(-100%, 50%);
+  }
+}
